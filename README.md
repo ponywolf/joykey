@@ -1,6 +1,6 @@
 # joykey and vjoy by Ponywolf
 
-(http://i.imgur.com/pXln4NT.gif)
+![Demo](http://i.imgur.com/pXln4NT.gif)
 
 #### joykey.lua
 Converts joystick axis events into key events in Corona SDK
@@ -35,3 +35,4 @@ Size of the joystick control (defaults to 48px) or a filename of an image to loa
 
 ###### outerRadius
 Size of the joystick movement area (defaults to 496px) or a filename of an image to load for the joystick background
+
