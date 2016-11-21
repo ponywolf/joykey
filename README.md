@@ -2,6 +2,8 @@
 
 ![Demo](http://i.imgur.com/pXln4NT.gif)
 
+These two modules can be strung together to make an on screen joystick control that outputs key events, thereby reducing some of the complexity of writing game interface code. Read more about Corona SDK key events here... https://docs.coronalabs.com/api/event/key/index.html
+
 #### joykey.lua
 Converts joystick axis events into key events in Corona SDK
 
@@ -36,3 +38,12 @@ Size of the joystick control (defaults to 48px) or a filename of an image to loa
 ###### outerRadius
 Size of the joystick movement area (defaults to 496px) or a filename of an image to load for the joystick background
 
+Add a virtual button
+```
+vjoy.newButton(key, radius)
+```
+###### key
+The keyName of the button you want to fire (defaults to "buttonA")
+
+###### radius
+Size of the button control (defaults to 64px) or a filename of an image to load for the button
